@@ -1,3 +1,202 @@
-h1 {
-    color: red;
- }
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position : relative;
+}
+
+h1{
+    font-size: 24px;
+    margin: 0;
+    padding: 20px
+}
+
+h2{
+    margin-top: 0;
+}
+
+.sideBar h2{
+    font-size: 16px;
+    color: #929292;
+    text-transform: uppercase;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.passionButton, .addPassionButton{
+    background-color: lightgray;
+    border: none;
+    margin: 0 10px ;
+    padding: 7px 14px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.addPassionButton{
+    background-color: #3f8cb6;
+    color: white;
+    font-weight: 600;
+}
+
+.passionButton:first-child{
+    margin-left: 0;
+}
+
+li:hover {
+    background-color: #65c9ff;
+    color: white;
+    border-radius: 5px;
+}
+
+.mainContainer  {
+    display: flex;
+    flex-direction: row;
+}
+
+.sideBar{
+    width: 30vw;
+    border: solid #3f8cb6;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.divProfile {   
+    border: 1px solid #3f8cb6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.divPassion {
+    border: 1px solid #3f8cb6;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.profileContainer{
+    box-sizing: border-box;
+}
+
+.imgCover {
+    width: 100%;
+    height: 48vh;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+}
+
+.imgProfile{
+    width: 100px;
+}
+
+.divPicName{
+    display: flex;
+    flex-direction: row;
+}
+
+.divNameMail{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pName {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 0 0;   
+    color: #3f8cb6;
+}
+
+.divInfo{
+    padding: 15px;
+}
+
+.divPassionButton{
+    display: flex;
+    flex-direction: row;
+}
+
+.divDarkEffect{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #3a393993;
+    top: 0;
+}
+
+.divForm p{
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.divForm{
+    width: 22vw;
+    height: 25vh;
+    background-color: white;
+    position: absolute;
+    top: 35vh;
+    left: 42vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.inputTitle{
+    width: 100%;
+    height: 10%;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.textareaDescription{
+    width: 100%;
+    height: 50%;
+    border: 1px solid lightgray;
+}
+
+.divFormButtons{
+    width: 100%;
+    padding: 15px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonConfirm, .buttonCancel{
+    background-color: lightgray;
+    margin: 14px, 10px;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.divAdress .pAdressLine1{
+    padding-top: 10px;
+}
+
+.divAdress p{
+    margin:0;
+    padding: 3px;
+}
+
+
